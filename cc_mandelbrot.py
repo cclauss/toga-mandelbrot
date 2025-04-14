@@ -56,7 +56,7 @@ def mandelbrot(z, c, n=MAX_TRIES):
     if abs(z) > 1000:
         return n
 
-    return mandelbrot(z ** 2 + c, c, n - 1) if n > 0 else 0
+    return mandelbrot(z**2 + c, c, n - 1) if n > 0 else 0
 
 
 def main():
